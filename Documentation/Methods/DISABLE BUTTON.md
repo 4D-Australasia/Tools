@@ -1,0 +1,1 @@
+<!-- DISABLE BUTTON (Button Name or Pointer) -->## DISABLE BUTTONDISABLE BUTTON (Button Name or Pointer)Replacement of old 4D DISABLE BUTTON commandParameters|Type|Description----------|----|-----------$1|Variant|This will accept a string or a pointer to a form variable
