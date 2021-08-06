@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE macros SYSTEM "http://www.4d.com/dtd/2007/macros.dtd" >
+<macros>
+	<macro name="ProcedureHeader">
+		<text>// ----------------------------------------------------
+		// Project Method: <method_name/>
+	
+		// Description
+	
+		// Access: ???
+	
+		// Parameters: 
+		//   $1 : Type : Description
+		//   $x : Type : Description (optional)
+
+		// Created by <user_os/> (<date format="9"/>)
+	
+			//     me@us.com
+		// ----------------------------------------------------
+		</text>
+	</macro>
+
+	<macro name="FunctionHeader">
+		<text>// ----------------------------------------------------
+		// Project Method: <method_name/> --> ReturnType
+	
+		// Description
+	
+		// Access: ???
+	
+		// Parameters: 
+		//   $1 : Type : Description
+		//   $x : Type : Description (optional)
+
+		// Returns: 
+		//   $0 : Type : Description
+
+		// Created by <user_os/> (<date format="9"/>)
+		//     me@us.com
+		// ----------------------------------------------------
+		</text>
+	</macro>
+	
+	<macro name="ForEach">
+		<text>
+			For each(<caret/>;)
+
+			End for each
+		</text>
+	</macro>
+
+</macros>
