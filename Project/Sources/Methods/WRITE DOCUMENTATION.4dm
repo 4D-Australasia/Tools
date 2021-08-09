@@ -1,4 +1,4 @@
-//%attributes = {"invisible":true}
+//%attributes = {"invisible":true,"shared":true}
 
 // ----------------------------------------------------
 // Project Method: WRITE DOCUMENTATION {(Method Name or prefix; Write Tooltip)}
