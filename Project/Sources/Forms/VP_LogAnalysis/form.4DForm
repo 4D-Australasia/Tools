@@ -1,0 +1,107 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"ViewProArea": {
+					"type": "view",
+					"top": 20,
+					"left": 20,
+					"width": 1080,
+					"height": 766,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSourceTypeHint": "object",
+					"borderStyle": "none",
+					"method": "ObjectMethods/ViewProArea.4dm",
+					"userInterface": "ribbon",
+					"withFormulaBar": true,
+					"events": [
+						"onVPReady"
+					]
+				},
+				"Test Load": {
+					"type": "button",
+					"top": 806,
+					"left": 20,
+					"width": 88,
+					"height": 22,
+					"sizingY": "move",
+					"text": "Load",
+					"focusable": false,
+					"method": "ObjectMethods/Test Load.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Cancel": {
+					"type": "button",
+					"top": 806,
+					"left": 896,
+					"width": 68,
+					"height": 22,
+					"sizingX": "move",
+					"sizingY": "move",
+					"action": "cancel",
+					"text": "Cancel",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"exportxlsx": {
+					"type": "button",
+					"top": 806,
+					"left": 984,
+					"width": 116,
+					"height": 22,
+					"sizingX": "move",
+					"sizingY": "move",
+					"text": "Export xlsx file",
+					"focusable": false,
+					"defaultButton": true,
+					"method": "ObjectMethods/exportxlsx.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"geometryStamp": 1,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

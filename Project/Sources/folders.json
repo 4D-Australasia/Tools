@@ -11,5 +11,19 @@
 	"Default Forms": {},
 	"Default Project Methods": {},
 	"Default Tables": {},
+	"Picture Library": {
+		"methods": [
+			"Pict__ReadMe",
+			"Pict_ExportLibrary"
+		]
+	},
+	"Print": {
+		"methods": [
+			"PAGE SETUP",
+			"Print_LoadSettings",
+			"Print_SaveSettings",
+			"Print_SetOptions"
+		]
+	},
 	"trash": {}
 }
